@@ -1,0 +1,5 @@
+Initial release of Koydo TESDA NC Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration

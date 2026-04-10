@@ -1,0 +1,45 @@
+// TESDA NC Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM086",
+  slug: "tesda-nc",
+  name: "TESDA NC",
+  fullName: "TESDA National Certification",
+  alias: "TESDA National Certification",
+  family: "TESDA",
+  category: "Vocational certification",
+  subcategory: "Skills certification",
+  country: "Philippines",
+  region: "Southeast Asia",
+  languages: ["English","Filipino"],
+  estimatedAnnualTakers: "varies across trades",
+  testingWindow: "Year-round",
+  schedulePattern: "Continuous",
+  ageGroup: "18-40",
+  targetUser: "Vocational learner",
+  delivery: "Practical + written",
+  questionTypes: ["Performance + written"],
+  adaptivity: "Nonlinear",
+  sections: "Trade-specific",
+  scoringMode: "Competency-based",
+  essayOrSpeaking: "Performance",
+  ipRisk: "Medium",
+  contentReuse: "vocational_skills",
+  uiEngine: "practical_plus_objective",
+  monetizationPotential: "Low",
+  tier: "Tier 6",
+  launchWave: "Wave 8",
+  themeColor: "#2563EB",
+  themeColorDark: "#1D4ED8",
+  localizationComplexity: "High",
+  offlineNeeded: false,
+  mobileFirst: false,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
